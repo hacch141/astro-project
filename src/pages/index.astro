@@ -1,0 +1,26 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+import image1 from "../photos/tower.png";
+import image2 from "../photos/car.png";
+---
+
+<MainLayout title="home">
+	<div class="flex justify-between">
+		<div class="w-1/2 p-12">
+			<div class="font-bold pt-6 pb-6 text-4xl">Al connectivity with 5th Generation Internet</div>
+			<div>5G and high-speed internet refer to the latest generation of wireless and wired communication technologies that provide faster data transfer speeds, lower latency, and greater network capacity than previous generations. The widespread adoption of 5G and high-speed internet has enabled the development of new Al products and services that require large amounts of data transfer, such as autonomous vehicles, smart cities, and virtual and augmented reality applications. With 5G, data can be transferred up to 100 times faster than 4G. enabling real-time communication and faster decision-making </div>
+		</div>
+		<div class="w-1/2">
+			<img src={image1} alt="tower" class="h-30 w-30">
+		</div>
+	</div>
+	<div class="flex justify-between">
+		<div class="w-1/2">
+			<img src={image2} alt="tower" class="w-22 h-15">
+		</div>
+		<div class="w-1/2 p-12">
+			<div class="font-medium pt-6 pb-6 text-4xl">The future of 5G in Al-apps</div>
+			<div>The use of 5G and high-speed internet in Al products has also enabled the development of edge computing, which involves processing data closer to the source rather than sending it to a centralized server, Edge computing can reduce latency and improve response times, which is particularly important for applications such as autonomous vehicles. where decisions need to be made in real-time. In addition, the use of 5G and high-speed internet has enabled the development of cloud-based Al platforms that can be accessed from anywhere, making it easier for companies to deploy and scale Al applications. Overall, the integration of 5G and high-speed internet in Al products has the potential to transform various industries by creating more intelligent and efficient systems that can process data faster and make decisions in real-time.</div>
+		</div>
+	</div>
+</MainLayout>
